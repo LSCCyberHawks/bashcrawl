@@ -27,7 +27,7 @@ if [ $RESP = "y" -o $RESP = "Y" ]; then
    echo "In Bash, a symlink is an *alias* or a *shortcut*"
    echo "to another file or directory."
    echo "Create one from this room to the adjacent one:"
-   echo "ln -f -s `pwd`/../../../chapel/courtyard/aviary/hall portal"
+   echo "ln -f -s `pwd`/../../../.chapel/courtyard/aviary/hall portal"
    printf "\n"
 else
    echo "You decide it is probably best to leave"
